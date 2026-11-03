@@ -1,12 +1,14 @@
 # Dependencies and build outputs
 node_modules/
 .next/
+.vercel/
 out/
 dist/
 coverage/
 .turbo/
 .expo/
 web-build/
+*.tsbuildinfo
 
 # Local configuration and secrets
 .env
@@ -33,5 +35,3 @@ Thumbs.db
 *.log
 npm-debug.log*
 pnpm-debug.log*
-
-*.tsbuildinfo
