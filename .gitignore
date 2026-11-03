@@ -1,0 +1,35 @@
+# Dependencies and build outputs
+node_modules/
+.next/
+out/
+dist/
+coverage/
+.turbo/
+.expo/
+web-build/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Supabase local state
+supabase/.temp/
+supabase/.branches/
+
+# Native build artifacts
+android/
+ios/
+*.keystore
+*.jks
+*.p8
+*.p12
+*.mobileprovision
+
+# Tool / OS files
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+pnpm-debug.log*

@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "WaterScout",
+    "slug": "waterscout",
+    "scheme": "waterscout",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "platforms": ["ios", "android"],
+    "ios": {
+      "bundleIdentifier": "app.waterscout.mobile"
+    },
+    "android": {
+      "package": "app.waterscout.mobile"
+    },
+    "plugins": ["expo-router", "@maplibre/maplibre-react-native"]
+  }
+}

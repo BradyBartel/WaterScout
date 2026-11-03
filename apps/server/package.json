@@ -1,0 +1,18 @@
+{
+  "name": "@waterscout/server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@fastify/cors": "11.4.0",
+    "@waterscout/core": "workspace:*",
+    "fastify": "5.12.8",
+    "zod": "4.6.7"
+  }
+}

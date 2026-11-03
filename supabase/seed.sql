@@ -1,0 +1,1 @@
+-- Intentionally empty. Do not seed fabricated fishing spots or legal rules.
